@@ -23,3 +23,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LGUI,    KC_LALT,                        KC_SPC,                 KC_F,   KC_LEFT,    KC_DOWN,    KC_RGHT
     )
 };
+
+// Turning knob changes volume
+#ifdef ENCODER_ENABLE
+bool encoder_update_kb(uint8_t index, bool clockwise) {
+    if (!encoder_update_user(index, clockwise)) {
+        return false;
+    }
+	// Volume control
+	if (clockwise) {
+		tap_code(KC_VOLU);
+	} else {
+		tap_code(KC_VOLD);
+	}
+	return false;
+}
+#endif  
