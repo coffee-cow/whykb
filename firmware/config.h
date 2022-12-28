@@ -7,3 +7,12 @@
 #define ENCODERS_PAD_A { GP23 }
 #define ENCODERS_PAD_B { GP21 }
 #define ENCODER_RESOLUTION 4
+
+// OLED
+#ifdef OLED_ENABLE
+#define OLED_DISPLAY_128X32
+#define I2C1_SDA_PIN GP2
+#define I2C1_SCL_PIN GP3
+#define I2C_DRIVER I2CD2
+#define OLED_BRIGHTNESS 128
+#endif
