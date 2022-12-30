@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/lib/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "SM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/SM04B-SRSS-TB_LF__SN_/SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "kbd")(type "Legacy")(uri "C:/Users/Daniel/Documents/GitHub/whykb_pcb/lib/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "PEC11R-4215F-S0024")(type "KiCad")(uri "${KIPRJMOD}/lib/PEC11R-4215F-S0024.kicad_sym")(options "")(descr ""))
+)

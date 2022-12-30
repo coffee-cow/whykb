@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Connector_JST")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector_JST.pretty")(options "")(descr ""))
+  (lib (name "PEC11R-4215F-S0024")(type "KiCad")(uri "C:/Users/Daniel/Documents/GitHub/whykb_pcb/lib")(options "")(descr ""))
+)
